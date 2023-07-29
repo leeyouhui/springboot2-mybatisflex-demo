@@ -1,0 +1,424 @@
+2023-07-29T15:21:02.240+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52567 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:21:02.246+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:21:02.248+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:21:05.030+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.288 seconds (JVM running for 4.119)
+2023-07-29T15:24:21.441+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T15:24:21.453+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T15:24:45.232+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:24:45.236+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:24:45.236+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:24:48.110+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.35 seconds (JVM running for 4.231)
+2023-07-29T15:25:29.993+0800|DEBUG|http-nio-8080-exec-1|com.bruce.demo.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T15:25:30.005+0800|DEBUG|http-nio-8080-exec-1|com.bruce.demo.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T15:25:30.026+0800|DEBUG|http-nio-8080-exec-1|com.bruce.demo.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T15:28:52.764+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:28:52.764+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:28:52.765+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:28:53.572+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.925 seconds (JVM running for 249.693)
+2023-07-29T15:28:55.114+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:28:55.114+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:28:55.115+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:28:55.683+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.67 seconds (JVM running for 251.805)
+2023-07-29T15:32:22.794+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:32:22.795+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:32:22.795+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:32:23.318+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.617 seconds (JVM running for 459.44)
+2023-07-29T15:32:24.982+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:32:24.983+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:32:24.983+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:32:25.650+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.768 seconds (JVM running for 461.772)
+2023-07-29T15:35:59.616+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:35:59.617+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:35:59.617+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:36:00.132+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.616 seconds (JVM running for 676.254)
+2023-07-29T15:36:01.769+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:36:01.770+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:36:01.770+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:36:02.222+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.546 seconds (JVM running for 678.345)
+2023-07-29T15:39:45.664+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:39:45.664+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:39:45.664+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:39:46.147+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.579 seconds (JVM running for 902.263)
+2023-07-29T15:40:15.144+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:40:15.145+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:40:15.145+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:40:15.628+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.573 seconds (JVM running for 931.744)
+2023-07-29T15:40:17.307+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:40:17.307+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:40:17.308+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:40:17.755+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.551 seconds (JVM running for 933.871)
+2023-07-29T15:42:59.515+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:42:59.516+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:42:59.516+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:42:59.992+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.574 seconds (JVM running for 1096.108)
+2023-07-29T15:43:01.655+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:43:01.656+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:43:01.656+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:43:02.084+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.529 seconds (JVM running for 1098.2)
+2023-07-29T15:45:32.559+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:45:32.560+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:45:32.560+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:45:33.029+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.568 seconds (JVM running for 1249.146)
+2023-07-29T15:45:34.713+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:45:34.714+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:45:34.715+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:45:35.206+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.6 seconds (JVM running for 1251.323)
+2023-07-29T15:55:32.526+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:55:32.527+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:55:32.527+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:55:33.033+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.615 seconds (JVM running for 1849.15)
+2023-07-29T15:55:34.735+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:55:34.736+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:55:34.738+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:55:35.459+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.825 seconds (JVM running for 1851.576)
+2023-07-29T15:55:48.286+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 52826 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:55:48.287+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:55:48.288+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:55:48.781+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.592 seconds (JVM running for 1864.898)
+2023-07-29T15:56:07.001+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 54862 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:56:07.007+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:56:07.008+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:56:09.759+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.208 seconds (JVM running for 3.961)
+2023-07-29T15:56:16.642+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T15:56:16.655+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T15:56:16.689+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T15:56:45.200+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 54910 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T15:56:45.206+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T15:56:45.207+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T15:56:47.943+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.195 seconds (JVM running for 3.963)
+2023-07-29T15:56:51.086+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T15:56:51.100+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T15:56:51.113+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T16:04:51.017+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 54910 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T16:04:51.017+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T16:04:51.018+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T16:04:51.733+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.819 seconds (JVM running for 487.754)
+2023-07-29T16:04:53.332+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 54910 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T16:04:53.332+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T16:04:53.333+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T16:04:53.879+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.646 seconds (JVM running for 489.9)
+2023-07-29T16:10:15.444+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 55772 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T16:10:15.450+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T16:10:15.451+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T16:10:18.115+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.14 seconds (JVM running for 3.898)
+2023-07-29T16:44:33.573+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 57898 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T16:44:33.579+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T16:44:33.580+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T16:44:36.284+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.168 seconds (JVM running for 3.908)
+2023-07-29T16:55:47.033+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 57898 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T16:55:47.033+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T16:55:47.034+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T16:55:50.144+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 57898 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T16:55:50.144+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T16:55:50.145+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T16:59:22.346+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 57898 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T16:59:22.347+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T16:59:22.347+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T16:59:24.236+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 57898 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T16:59:24.236+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T16:59:24.237+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:00:17.554+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 57898 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:00:17.555+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:00:17.555+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:00:19.465+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 57898 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:00:19.465+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:00:19.465+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:03:24.214+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 57898 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:03:24.215+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:03:24.215+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:03:25.941+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 57898 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:03:25.941+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:03:25.941+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:12:05.455+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 59778 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:12:05.460+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:12:05.462+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:13:10.848+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 59848 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:13:10.855+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:13:10.857+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:13:13.707+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.318 seconds (JVM running for 4.064)
+2023-07-29T17:13:29.608+0800|DEBUG|http-nio-8080-exec-1|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T17:13:29.623+0800|DEBUG|http-nio-8080-exec-1|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T17:13:29.642+0800|DEBUG|http-nio-8080-exec-1|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T17:13:29.646+0800|INFO|http-nio-8080-exec-1|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||SELECT * FROM `tb_account` WHERE `id` = '1' ,22ms
+2023-07-29T17:16:11.700+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:16:11.705+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:16:11.706+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:16:14.531+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.294 seconds (JVM running for 4.046)
+2023-07-29T17:16:21.818+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T17:16:21.847+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T17:16:21.860+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T17:16:21.863+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||SELECT * FROM `tb_account` WHERE `id` = '1' ,15ms
+2023-07-29T17:18:59.953+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:18:59.954+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:18:59.954+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:19:00.718+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.865 seconds (JVM running for 170.231)
+2023-07-29T17:19:02.655+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:19:02.655+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:19:02.656+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:19:03.273+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.708 seconds (JVM running for 172.786)
+2023-07-29T17:20:46.955+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:20:46.956+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:20:46.958+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:20:47.453+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.597 seconds (JVM running for 276.966)
+2023-07-29T17:24:13.833+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:24:13.834+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:24:13.834+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:24:14.361+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.671 seconds (JVM running for 483.872)
+2023-07-29T17:24:26.945+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:24:26.945+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:24:26.945+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:24:27.323+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.445 seconds (JVM running for 496.834)
+2023-07-29T17:24:53.176+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:24:53.177+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:24:53.178+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:24:53.619+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.572 seconds (JVM running for 523.131)
+2023-07-29T17:24:58.132+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:24:58.134+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:24:58.134+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:24:58.765+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.767 seconds (JVM running for 528.276)
+2023-07-29T17:26:23.381+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:26:23.382+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:26:23.382+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:26:25.252+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:26:25.252+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:26:25.252+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:26:25.798+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.599 seconds (JVM running for 615.309)
+2023-07-29T17:26:39.546+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:26:39.547+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:26:39.547+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:26:41.318+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:26:41.318+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:26:41.318+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:26:41.827+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.547 seconds (JVM running for 631.338)
+2023-07-29T17:38:27.172+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:38:27.172+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:38:27.172+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:38:27.538+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.413 seconds (JVM running for 1091.441)
+2023-07-29T17:38:32.153+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:38:32.154+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:38:32.155+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:38:32.841+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.822 seconds (JVM running for 1096.743)
+2023-07-29T17:38:50.703+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:38:50.704+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:38:50.705+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:38:51.340+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.765 seconds (JVM running for 1115.243)
+2023-07-29T17:39:00.068+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:39:00.069+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:39:00.069+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:39:00.451+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.498 seconds (JVM running for 1124.354)
+2023-07-29T17:39:05.026+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:39:05.028+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:39:05.029+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:39:05.535+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.65 seconds (JVM running for 1129.438)
+2023-07-29T17:42:54.143+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:42:54.144+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:42:54.144+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:42:54.733+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.726 seconds (JVM running for 1358.634)
+2023-07-29T17:42:57.223+0800|INFO|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||Starting MybatisFlexTestApplicationTests using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 61551 (started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:42:57.229+0800|DEBUG|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:42:57.232+0800|INFO|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:43:02.461+0800|INFO|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||Started MybatisFlexTestApplicationTests in 5.577 seconds (JVM running for 7.372)
+2023-07-29T17:43:03.221+0800|D2023-07-29T17:44:46.833+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:44:46.834+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:44:46.835+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:44:47.396+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.652 seconds (JVM running for 1471.297)
+2023-07-29T17:44:49.071+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 60049 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:44:49.072+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:44:49.074+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:44:49.544+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.579 seconds (JVM running for 1473.445)
+2023-07-29T17:47:19.542+0800|INFO|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||Starting MybatisFlexTestApplicationTests using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 61823 (started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:47:19.549+0800|DEBUG|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:47:19.551+0800|INFO|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:47:24.874+0800|INFO|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||Started MybatisFlexTestApplicationTests in 5.678 seconds (JVM running for 7.39)
+2023-07-29T17:47:25.573+0800|DEBUG|main|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T17:47:25.595+0800|DEBUG|main|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(Long)
+2023-07-29T17:47:25.616+0800|DEBUG|main|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T17:47:25.620+0800|INFO|main|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = 1 , cost=25ms
+2023-07-29T17:48:36.856+0800|INFO|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||Starting MybatisFlexTestApplicationTests using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 61902 (started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:48:36.862+0800|DEBUG|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:48:36.865+0800|INFO|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:48:42.177+0800|INFO|main|com.bruce.demo.MybatisFlexTestApplicationTests|||||Started MybatisFlexTestApplicationTests in 5.664 seconds (JVM running for 7.391)
+2023-07-29T17:48:42.896+0800|DEBUG|main|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T17:48:42.917+0800|DEBUG|main|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(Long)
+2023-07-29T17:48:42.939+0800|DEBUG|main|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T17:48:42.943+0800|INFO|main|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = 1 , cost=26ms
+2023-07-29T17:49:16.261+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 61947 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T17:49:16.265+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T17:49:16.266+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T17:49:19.170+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.369 seconds (JVM running for 4.242)
+2023-07-29T17:49:35.130+0800|DEBUG|http-nio-8080-exec-1|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T17:49:35.144+0800|DEBUG|http-nio-8080-exec-1|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T17:49:35.157+0800|DEBUG|http-nio-8080-exec-1|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T17:49:35.160+0800|INFO|http-nio-8080-exec-1|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=16ms
+2023-07-29T18:04:22.678+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 62877 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T18:04:22.683+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T18:04:22.685+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T18:04:25.511+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.281 seconds (JVM running for 4.013)
+2023-07-29T18:04:39.660+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:04:39.693+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:04:39.708+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:04:39.711+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=17ms
+2023-07-29T18:07:19.305+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==>  Preparing: SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`
+2023-07-29T18:07:19.308+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==> Parameters: 
+2023-07-29T18:07:19.313+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||<==      Total: 2
+2023-07-29T18:07:19.314+0800|INFO|http-nio-8080-exec-4|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`, cost=6ms
+2023-07-29T18:07:56.310+0800|DEBUG|http-nio-8080-exec-5|com.bruce.demo.test.mapper.AccountMapper.selectObjectListByQuery|||||==>  Preparing: SELECT COUNT(*) AS `total` FROM `tb_account`
+2023-07-29T18:07:56.311+0800|DEBUG|http-nio-8080-exec-5|com.bruce.demo.test.mapper.AccountMapper.selectObjectListByQuery|||||==> Parameters: 
+2023-07-29T18:07:56.315+0800|DEBUG|http-nio-8080-exec-5|com.bruce.demo.test.mapper.AccountMapper.selectObjectListByQuery|||||<==      Total: 1
+2023-07-29T18:07:56.316+0800|INFO|http-nio-8080-exec-5|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT COUNT(*) AS `total` FROM `tb_account`, cost=5ms
+2023-07-29T18:07:56.318+0800|DEBUG|http-nio-8080-exec-5|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==>  Preparing: SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account` LIMIT 0, 10
+2023-07-29T18:07:56.318+0800|DEBUG|http-nio-8080-exec-5|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==> Parameters: 
+2023-07-29T18:07:56.320+0800|DEBUG|http-nio-8080-exec-5|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||<==      Total: 2
+2023-07-29T18:07:56.320+0800|INFO|http-nio-8080-exec-5|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account` LIMIT 0, 10, cost=2ms
+2023-07-29T18:08:07.942+0800|DEBUG|http-nio-8080-exec-6|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==>  Preparing: SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`
+2023-07-29T18:08:07.943+0800|DEBUG|http-nio-8080-exec-6|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==> Parameters: 
+2023-07-29T18:08:07.946+0800|DEBUG|http-nio-8080-exec-6|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||<==      Total: 2
+2023-07-29T18:08:07.947+0800|INFO|http-nio-8080-exec-6|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`, cost=3ms
+2023-07-29T18:08:20.320+0800|DEBUG|http-nio-8080-exec-7|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==>  Preparing: SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`
+2023-07-29T18:08:20.321+0800|DEBUG|http-nio-8080-exec-7|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==> Parameters: 
+2023-07-29T18:08:20.333+0800|DEBUG|http-nio-8080-exec-7|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||<==      Total: 2
+2023-07-29T18:08:20.333+0800|INFO|http-nio-8080-exec-7|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`, cost=12ms
+2023-07-29T18:08:24.305+0800|DEBUG|http-nio-8080-exec-8|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:08:24.306+0800|DEBUG|http-nio-8080-exec-8|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:08:24.308+0800|DEBUG|http-nio-8080-exec-8|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:08:24.313+0800|INFO|http-nio-8080-exec-8|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=2ms
+2023-07-29T18:08:25.107+0800|DEBUG|http-nio-8080-exec-9|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:08:25.109+0800|DEBUG|http-nio-8080-exec-9|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:08:25.114+0800|DEBUG|http-nio-8080-exec-9|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:08:25.116+0800|INFO|http-nio-8080-exec-9|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=6ms
+2023-07-29T18:10:13.765+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==>  Preparing: SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`
+2023-07-29T18:10:13.766+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==> Parameters: 
+2023-07-29T18:10:13.768+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||<==      Total: 2
+2023-07-29T18:10:13.768+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`, cost=2ms
+2023-07-29T18:11:18.309+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 63290 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T18:11:18.313+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T18:11:18.314+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T18:11:21.185+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.34 seconds (JVM running for 4.19)
+2023-07-29T18:11:27.380+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==>  Preparing: SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`
+2023-07-29T18:11:27.412+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==> Parameters: 
+2023-07-29T18:11:27.426+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||<==      Total: 2
+2023-07-29T18:11:27.428+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`, cost=16ms
+2023-07-29T18:11:30.434+0800|DEBUG|http-nio-8080-exec-3|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:11:30.435+0800|DEBUG|http-nio-8080-exec-3|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(Long)
+2023-07-29T18:11:30.439+0800|DEBUG|http-nio-8080-exec-3|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:11:30.441+0800|INFO|http-nio-8080-exec-3|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = 1 , cost=5ms
+2023-07-29T18:12:16.708+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==>  Preparing: DELETE FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:12:16.713+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==> Parameters: 3(String)
+2023-07-29T18:12:16.716+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||<==    Updates: 0
+2023-07-29T18:12:16.717+0800|INFO|http-nio-8080-exec-4|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=DELETE FROM `tb_account` WHERE `id` = '3' , cost=3ms
+2023-07-29T18:12:18.965+0800|DEBUG|http-nio-8080-exec-6|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==>  Preparing: DELETE FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:12:18.966+0800|DEBUG|http-nio-8080-exec-6|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==> Parameters: 3(String)
+2023-07-29T18:12:18.968+0800|DEBUG|http-nio-8080-exec-6|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||<==    Updates: 0
+2023-07-29T18:12:18.969+0800|INFO|http-nio-8080-exec-6|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=DELETE FROM `tb_account` WHERE `id` = '3' , cost=2ms
+2023-07-29T18:12:19.456+0800|DEBUG|http-nio-8080-exec-7|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==>  Preparing: DELETE FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:12:19.456+0800|DEBUG|http-nio-8080-exec-7|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==> Parameters: 3(String)
+2023-07-29T18:12:19.458+0800|DEBUG|http-nio-8080-exec-7|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||<==    Updates: 0
+2023-07-29T18:12:19.459+0800|INFO|http-nio-8080-exec-7|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=DELETE FROM `tb_account` WHERE `id` = '3' , cost=3ms
+2023-07-29T18:12:23.800+0800|DEBUG|http-nio-8080-exec-8|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==>  Preparing: DELETE FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:12:23.801+0800|DEBUG|http-nio-8080-exec-8|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==> Parameters: 34(String)
+2023-07-29T18:12:23.805+0800|DEBUG|http-nio-8080-exec-8|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||<==    Updates: 0
+2023-07-29T18:12:23.805+0800|INFO|http-nio-8080-exec-8|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=DELETE FROM `tb_account` WHERE `id` = '34' , cost=4ms
+2023-07-29T18:12:24.330+0800|DEBUG|http-nio-8080-exec-9|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==>  Preparing: DELETE FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:12:24.331+0800|DEBUG|http-nio-8080-exec-9|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||==> Parameters: 34(String)
+2023-07-29T18:12:24.332+0800|DEBUG|http-nio-8080-exec-9|com.bruce.demo.test.mapper.AccountMapper.deleteById|||||<==    Updates: 0
+2023-07-29T18:12:24.333+0800|INFO|http-nio-8080-exec-9|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=DELETE FROM `tb_account` WHERE `id` = '34' , cost=1ms
+2023-07-29T18:12:29.742+0800|DEBUG|http-nio-8080-exec-10|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:12:29.744+0800|DEBUG|http-nio-8080-exec-10|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(Long)
+2023-07-29T18:12:29.748+0800|DEBUG|http-nio-8080-exec-10|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:12:29.749+0800|INFO|http-nio-8080-exec-10|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = 1 , cost=5ms
+2023-07-29T18:12:30.553+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:12:30.554+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(Long)
+2023-07-29T18:12:30.556+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:12:30.556+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = 1 , cost=2ms
+2023-07-29T18:13:23.696+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 63426 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T18:13:23.702+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T18:13:23.703+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T18:13:26.595+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.346 seconds (JVM running for 4.077)
+2023-07-29T18:13:49.739+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:13:49.751+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:13:49.763+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:13:49.766+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=14ms
+2023-07-29T18:14:59.580+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 63526 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T18:14:59.585+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T18:14:59.586+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T18:15:02.418+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.28 seconds (JVM running for 4.051)
+2023-07-29T18:15:27.581+0800|DEBUG|http-nio-8080-exec-3|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:15:27.613+0800|DEBUG|http-nio-8080-exec-3|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:15:27.626+0800|DEBUG|http-nio-8080-exec-3|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:15:27.628+0800|INFO|http-nio-8080-exec-3|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=16ms
+2023-07-29T18:15:27.660+0800|DEBUG|http-nio-8080-exec-3|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:15:27.661+0800|DEBUG|http-nio-8080-exec-3|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:15:27.662+0800|DEBUG|http-nio-8080-exec-3|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:15:27.662+0800|INFO|http-nio-8080-exec-3|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=1ms
+2023-07-29T18:15:49.528+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 63526 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T18:15:49.529+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T18:15:49.529+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T18:15:50.135+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.705 seconds (JVM running for 51.767)
+2023-07-29T18:15:54.557+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 63526 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T18:15:54.558+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T18:15:54.558+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T18:15:55.185+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.723 seconds (JVM running for 56.817)
+2023-07-29T18:16:20.686+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 63635 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T18:16:20.692+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T18:16:20.692+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T18:16:23.498+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.257 seconds (JVM running for 4.0)
+2023-07-29T18:16:28.304+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:16:28.319+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:16:28.352+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:16:28.356+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=36ms
+2023-07-29T18:16:28.385+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:16:28.386+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:16:28.387+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:16:28.388+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=1ms
+2023-07-29T18:16:56.006+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 63680 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T18:16:56.012+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T18:16:56.014+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T18:16:58.819+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.261 seconds (JVM running for 3.986)
+2023-07-29T18:17:13.668+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:17:13.703+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:17:13.729+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:17:13.733+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=29ms
+2023-07-29T18:18:06.094+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 63761 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T18:18:06.099+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T18:18:06.100+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T18:18:08.906+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.264 seconds (JVM running for 3.988)
+2023-07-29T18:18:26.436+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T18:18:26.469+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T18:18:26.483+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T18:18:26.486+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=16ms
+2023-07-29T19:05:46.652+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==>  Preparing: SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`
+2023-07-29T19:05:46.653+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||==> Parameters: 
+2023-07-29T19:05:46.656+0800|DEBUG|http-nio-8080-exec-4|com.bruce.demo.test.mapper.AccountMapper.selectListByQuery|||||<==      Total: 2
+2023-07-29T19:05:46.657+0800|INFO|http-nio-8080-exec-4|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT `id`, `user_name`, `age`, `birthday` FROM `tb_account`, cost=4ms
+2023-07-29T19:05:54.332+0800|DEBUG|http-nio-8080-exec-5|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T19:05:54.334+0800|DEBUG|http-nio-8080-exec-5|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T19:05:54.337+0800|DEBUG|http-nio-8080-exec-5|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T19:05:54.340+0800|INFO|http-nio-8080-exec-5|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=4ms
+2023-07-29T19:07:27.248+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 64813 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T19:07:27.256+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T19:07:27.257+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T19:07:30.078+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.273 seconds (JVM running for 4.015)
+2023-07-29T19:07:36.796+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T19:07:36.808+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T19:07:36.843+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T19:07:36.846+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=37ms
+2023-07-29T19:07:53.409+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 64847 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T19:07:53.415+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T19:07:53.416+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T19:07:56.213+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.255 seconds (JVM running for 3.989)
+2023-07-29T19:08:01.500+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==>  Preparing: SELECT * FROM `tb_account` WHERE `id` = ?
+2023-07-29T19:08:01.512+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||==> Parameters: 1(String)
+2023-07-29T19:08:01.545+0800|DEBUG|http-nio-8080-exec-2|com.bruce.demo.test.mapper.AccountMapper.selectOneById|||||<==      Total: 1
+2023-07-29T19:08:01.548+0800|INFO|http-nio-8080-exec-2|com.bruce.demo.common.config.MyBatisFlexConfiguration|||||sql=SELECT * FROM `tb_account` WHERE `id` = '1' , cost=35ms
+2023-07-29T19:11:12.318+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 64847 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T19:11:12.319+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T19:11:12.319+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T19:11:12.896+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.675 seconds (JVM running for 200.67)
+2023-07-29T19:11:16.969+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 64847 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T19:11:16.970+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T19:11:16.970+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T19:11:17.720+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 0.882 seconds (JVM running for 205.495)
+2023-07-29T19:14:21.768+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Starting DemoApplication using Java 1.8.0_361 on lyhMacBook-Pro.local with PID 65273 (/Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo/target/classes started by lyh in /Users/lyh/Desktop/Bruce/java/IdeaProjects/springboot2-mybatisflex-demo)
+2023-07-29T19:14:21.774+0800|DEBUG|restartedMain|com.bruce.demo.DemoApplication|||||Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-07-29T19:14:21.775+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||No active profile set, falling back to 1 default profile: "default"
+2023-07-29T19:14:24.743+0800|INFO|restartedMain|com.bruce.demo.DemoApplication|||||Started DemoApplication in 3.462 seconds (JVM running for 4.232)

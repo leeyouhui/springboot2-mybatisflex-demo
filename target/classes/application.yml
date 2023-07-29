@@ -1,0 +1,119 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /bruceDemo
+  tomcat:
+    mbeanregistry:
+      enabled: true
+    accesslog:
+      pattern: '%h|%l|%u|%t|"%r"|%s|%b|%T| -'
+      enabled: true
+      prefix: access
+      rotate: true
+    basedir: .
+    max-threads: 200 # 最大线程数，默认200
+    min-spare-threads: 100 #最小备用线程数，tomcat启动时的初始化的线程数，默认10
+
+system-config:
+  app:
+    code: bruce
+    excludePaths:
+      - /swagger
+  db:
+    maxQueueSize: 1000
+    maxInsertSize: 1000
+    maxUpdateSize: 1000
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    application:
+      name: ccp-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF8&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: root12345
+    # druid数据源配置
+    druid:
+      # 异步初始化策略，可加快启动速度
+      async-init: true
+      # 初始化时建立物理连接的个数，同最小连接池数量
+      initial-size: 30
+      # 最小连接池数量（按需配置）
+      min-idle: 30
+      # 最大连接池数量（按需配置）
+      max-active: 100
+      # 获取连接超时, -1表示可一直等待
+      max-wait: 6000
+      # 是否缓存preparedStatement
+      pool-prepared-statements: false
+      # 缓存preparedStatement cache大小
+      max-open-prepared-statements: 20
+      # 检测连接是否有效的sql
+      validation-query: select 1
+      # 申请连接时执行validationQuery检测连接是否有效
+      testOnBorrow: false
+      # 归还连接时执行validationQuery检测连接是否有效
+      testOnReturn: false
+      # 如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。
+      testWhileIdle: true
+      # 两个含义：1.Destroy线程运行周期 2.testWhileIdle判断依据
+      time-between-eviction-runs-millis: 60000
+      # 连接保持空闲而不被驱逐的最小时间：5分钟
+      min-evictable-idle-time-millis: 300000
+      # 连接保持空闲而不被驱逐的最大时间: 2天，顺丰云上mysql默认wait_time=2天
+      max-evictable-idle-time-millis: 172800000
+      # 是否keep-alive：
+      # 即当最小空闲连接空闲了min-evictable-idle-time-millis，执行validationQuery进行keepAlive
+      keep-alive: true
+      #打印druid统计信息：每天打印一次统计信息日志，后续根据日志帮助优化连接池配置和SQL（按需配置, -1表示关闭）
+      time-between-log-stats-millis: 86400000
+      filter:
+        # 统计filter，druid默认开启
+        stat:
+          enabled: true
+          # 打印慢SQL（如需）
+          log-slow-sql: true
+          # 耗时多久为慢SQL（按需配置）
+          slow-sql-millis: 3000
+  cache:
+    type: caffeine
+    caffeine:
+      spec: initialCapacity=100,maximumSize=2000,expireAfterWrite=600s
+  mvc:
+    servlet:
+      load-on-startup: 1
+    # 为了兼容 swagger，修复默认路径匹配策略
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+feign:
+  httpclient:
+    enable: false
+  okhttp:
+    enable: true
+  client:
+    config:
+      default:
+        connectTimeout: 20000
+        readTimeout: 20000
+        loggerLevel: basic
+      bdp-server:
+        connectTimeout: 10000
+        readTimeout: 180000
+        loggerLevel: basic
+
+swagger:
+  enable: false  # 是否开启swagger，生产建议关闭
+  title: demo-API文档
+
+logging:
+  config: classpath:log4j2.xml
+  level:
+    root: info
+    com.bruce: debug
+
+#mybatis-flex:
+#  type-aliases-package: com.bruce.demo.**.entity

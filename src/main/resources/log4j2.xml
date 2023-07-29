@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" monitorInterval="60">
+    <properties>
+        <!--日志存储路径-->
+        <property name="LOG_HOME" value="logs" />
+        <!--输出格式-->
+        <property name="STANDARD_LOG_PATTERN" value="%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ}|%p|%t|%c||||%X{traceId}|%m%ex%n" />
+    </properties>
+
+    <Appenders>
+        <!-- 输出到控制台 -->
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout pattern="${STANDARD_LOG_PATTERN}"/>
+        </Console>
+
+        <!-- 输出 ERROR 日志到 error.log -->
+        <RollingRandomAccessFile name="PG-ERROR-APPENDER" fileName="${LOG_HOME}/error.log" filePattern="${LOG_HOME}/error.log.%d{yyyy-MM-dd}.%i.gz" immediateFlush="false">
+            <PatternLayout pattern="${STANDARD_LOG_PATTERN}"/>
+            <Filters>
+                <LevelRangeFilter minLevel="FATAL" maxLevel="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="200MB" />
+            </Policies>
+            <!--保留 7 天，每天最多 50 个文件-->
+            <DefaultRolloverStrategy max="50">
+                <Delete basePath="${LOG_HOME}" maxDepth="2">
+                    <IfFileName glob="error.log.*.gz"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingRandomAccessFile>
+
+        <!-- 输出除 ERROR 以外的日志到 biz.log -->
+        <RollingRandomAccessFile name="PG-BIZ-APPENDER" fileName="${LOG_HOME}/biz.log" filePattern="${LOG_HOME}/biz.log.%d{yyyy-MM-dd}.%i.gz" immediateFlush="false">
+            <PatternLayout pattern="${STANDARD_LOG_PATTERN}"/>
+            <Filters>
+                <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="ACCEPT"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="200MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="50">
+                <Delete basePath="${LOG_HOME}" maxDepth="2">
+                    <IfFileName glob="biz.log.*.gz"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingRandomAccessFile>
+
+    </Appenders>
+
+
+    <Loggers>
+
+        <AsyncLogger name="com.bruce" additivity="false">
+            <AppenderRef ref="CONSOLE"/>
+            <AppenderRef ref="PG-ERROR-APPENDER"/>
+            <AppenderRef ref="PG-BIZ-APPENDER"/>
+        </AsyncLogger>
+
+
+        <Root level="INFO">
+            <!-- 生产环境必需关闭 Console -->
+            <AppenderRef ref="CONSOLE" />
+<!--            <AppenderRef ref="PG-ERROR-APPENDER" />-->
+<!--            <AppenderRef ref="PG-BIZ-APPENDER" />-->
+        </Root>
+    </Loggers>
+</Configuration>
